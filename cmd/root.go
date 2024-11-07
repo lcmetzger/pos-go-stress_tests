@@ -40,18 +40,6 @@ Demais parâmetos são opcionais e serão assumidos com o valor 1 (um), caso nã
 	},
 }
 
-// func makeRequest() error {
-// 	resp, err := http.Get(url)
-// 	if err != nil {
-// 		return err
-// 	}
-// 	defer resp.Body.Close()
-
-// 	fmt.Println("Status:", resp.StatusCode)
-
-// 	return nil
-// }
-
 func Execute() {
 	err := rootCmd.Execute()
 	if err != nil {
