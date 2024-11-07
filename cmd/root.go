@@ -37,15 +37,6 @@ Demais parâmetos são opcionais e serão assumidos com o valor 1 (um), caso nã
 		req.MakeRequests(report)
 		report.Results()
 
-		// for range 100 {
-		// 	err := makeRequest()
-		// 	if err != nil {
-		// 		fmt.Println("ERRO: Verifique a url informada nos parâmetros:", err)
-		// 		cmd.Help()
-		// 		os.Exit(1)
-		// 	}
-		// }
-
 	},
 }
 
